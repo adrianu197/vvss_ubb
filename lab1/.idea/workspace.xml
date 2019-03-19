@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="029b2804-3492-4df3-b5f1-a61dbd0c55fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Requirements/diagrama.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Requirements/diagrama.uml" afterDir="false" />
-    </list>
+    <list default="true" id="029b2804-3492-4df3-b5f1-a61dbd0c55fd" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -364,7 +362,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553010695625" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553011102398" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Requirements" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -422,12 +420,12 @@
       <workItem from="1552332780075" duration="348000" />
       <workItem from="1552988406025" duration="3481000" />
       <workItem from="1553007468574" duration="2446000" />
-      <workItem from="1553010009461" duration="686000" />
+      <workItem from="1553010009461" duration="1003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6961000" />
+    <option name="totallyTimeSpent" value="7278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />

@@ -20,7 +20,7 @@ import evaluator.exception.NotAbleToCreateStatisticsException;
 
 public class StartApp {
 
-	private static final String file = "/home/adrian/Documents/school/VVSS/Lab/lab1/src/main/resources/intrebari.txt";
+	private static final String file = "/home/adrian/Documents/school/vvss/lab1/src/main/resources/intrebari.txt";
 	
 	public static void main(String[] args) throws IOException {
 		
