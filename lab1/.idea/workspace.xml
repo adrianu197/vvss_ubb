@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="029b2804-3492-4df3-b5f1-a61dbd0c55fd" name="Default Changelist" comment="" />
+    <list default="true" id="029b2804-3492-4df3-b5f1-a61dbd0c55fd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Requirements/diagrama.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Requirements/diagrama.uml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +23,154 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/main/StartApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
+            <state relative-caret-position="135">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Requirements/diagrama.uml">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="10.5" y="247.0">evaluator.model.Statistica</node>
+                <node x="594.8749999999998" y="533.0">evaluator.main.StartApp</node>
+                <node x="365.50000000000006" y="259.0">evaluator.util.InputValidation</node>
+                <node x="553.5" y="247.0">evaluator.model.Test</node>
+                <node x="1352.5" y="247.0">evaluator.exception.NotAbleToCreateStatisticsException</node>
+                <node x="1067.5" y="247.0">evaluator.exception.NotAbleToCreateTestException</node>
+                <node x="1418.0133928571431" y="60.0">evaluator.exception.DuplicateIntrebareException</node>
+                <node x="810.5" y="235.0">evaluator.repository.IntrebariRepository</node>
+                <node x="77.71041666666656" y="60.0">evaluator.exception.InputValidationFailedException</node>
+                <node x="615.3220238095237" y="0.0">evaluator.model.Intrebare</node>
+                <node x="407.87499999999994" y="394.0">evaluator.controller.AppController</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="evaluator.main.StartApp" target="evaluator.exception.NotAbleToCreateStatisticsException">
+                  <point x="38.857142857143" y="-27.5" />
+                  <point x="701.7321428571429" y="503.0" />
+                  <point x="1576.75" y="503.0" />
+                  <point x="74.75" y="27.5" />
+                </edge>
+                <edge source="evaluator.main.StartApp" target="evaluator.exception.NotAbleToCreateTestException">
+                  <point x="19.42857142857156" y="-27.5" />
+                  <point x="682.3035714285713" y="493.0" />
+                  <point x="1266.25" y="493.0" />
+                  <point x="66.25" y="27.5" />
+                </edge>
+                <edge source="evaluator.main.StartApp" target="evaluator.controller.AppController">
+                  <point x="1.1368683772161603E-13" y="-27.5" />
+                  <point x="85.0" y="39.5" />
+                </edge>
+                <edge source="evaluator.util.InputValidation" target="evaluator.exception.InputValidationFailedException">
+                  <point x="0.0" y="-15.5" />
+                  <point x="443.50000000000006" y="215.0" />
+                  <point x="277.21041666666656" y="215.0" />
+                  <point x="66.5" y="27.5" />
+                </edge>
+                <edge source="evaluator.controller.AppController" target="evaluator.model.Intrebare">
+                  <point x="-42.5" y="-39.5" />
+                  <point x="535.375" y="374.0" />
+                  <point x="532.0" y="374.0" />
+                  <point x="532.0" y="195.0" />
+                  <point x="631.3220238095237" y="195.0" />
+                  <point x="-96.0" y="87.5" />
+                </edge>
+                <edge source="evaluator.main.StartApp" target="evaluator.exception.InputValidationFailedException">
+                  <point x="-58.28571428571422" y="-27.5" />
+                  <point x="604.5892857142856" y="513.0" />
+                  <point x="0.0" y="513.0" />
+                  <point x="0.0" y="215.0" />
+                  <point x="144.21041666666656" y="215.0" />
+                  <point x="-66.5" y="27.5" />
+                </edge>
+                <edge source="evaluator.main.StartApp" target="evaluator.exception.DuplicateIntrebareException">
+                  <point x="58.285714285714334" y="-27.5" />
+                  <point x="721.1607142857142" y="513.0" />
+                  <point x="1662.0" y="513.0" />
+                  <point x="1662.0" y="215.0" />
+                  <point x="1603.2633928571431" y="215.0" />
+                  <point x="61.75" y="27.5" />
+                </edge>
+                <edge source="evaluator.controller.AppController" target="evaluator.exception.NotAbleToCreateTestException">
+                  <point x="127.5" y="-39.5" />
+                  <point x="705.375" y="364.0" />
+                  <point x="1133.75" y="364.0" />
+                  <point x="-66.25" y="27.5" />
+                </edge>
+                <edge source="evaluator.controller.AppController" target="evaluator.exception.NotAbleToCreateStatisticsException">
+                  <point x="155.83333333333326" y="-39.5" />
+                  <point x="733.7083333333333" y="374.0" />
+                  <point x="1427.25" y="374.0" />
+                  <point x="-74.75" y="27.5" />
+                </edge>
+                <edge source="evaluator.model.Test" target="evaluator.model.Intrebare">
+                  <point x="-59.25" y="-27.5" />
+                  <point x="612.75" y="215.0" />
+                  <point x="695.3220238095237" y="215.0" />
+                  <point x="-32.0" y="87.5" />
+                </edge>
+                <edge source="evaluator.main.StartApp" target="evaluator.model.Statistica">
+                  <point x="-38.857142857142776" y="-27.5" />
+                  <point x="624.0178571428571" y="503.0" />
+                  <point x="86.36369047619041" y="503.0" />
+                  <point x="86.36369047619041" y="374.0" />
+                  <point x="66.33333333333326" y="374.0" />
+                  <point x="-111.66666666666674" y="27.5" />
+                </edge>
+                <edge source="evaluator.repository.IntrebariRepository" target="evaluator.exception.DuplicateIntrebareException">
+                  <point x="88.875" y="-39.5" />
+                  <point x="1017.875" y="215.0" />
+                  <point x="1479.7633928571431" y="215.0" />
+                  <point x="-61.75" y="27.5" />
+                </edge>
+                <edge source="evaluator.controller.AppController" target="evaluator.model.Test">
+                  <point x="42.5" y="-39.5" />
+                  <point x="620.375" y="334.0" />
+                  <point x="731.25" y="334.0" />
+                  <point x="59.25" y="27.5" />
+                </edge>
+                <edge source="evaluator.controller.AppController" target="evaluator.repository.IntrebariRepository">
+                  <point x="99.16666666666674" y="-39.5" />
+                  <point x="677.0416666666667" y="354.0" />
+                  <point x="988.25" y="354.0" />
+                  <point x="59.25" y="39.5" />
+                </edge>
+                <edge source="evaluator.controller.AppController" target="evaluator.util.InputValidation">
+                  <point x="-99.16666666666652" y="-39.5" />
+                  <point x="478.7083333333334" y="354.0" />
+                  <point x="404.50000000000006" y="354.0" />
+                  <point x="-39.0" y="15.5" />
+                </edge>
+                <edge source="evaluator.controller.AppController" target="evaluator.model.Statistica">
+                  <point x="-155.83333333333326" y="-39.5" />
+                  <point x="422.0416666666667" y="374.0" />
+                  <point x="178.0" y="374.0" />
+                  <point x="0.0" y="27.5" />
+                </edge>
+                <edge source="evaluator.repository.IntrebariRepository" target="evaluator.model.Intrebare">
+                  <point x="-88.875" y="-39.5" />
+                  <point x="840.125" y="215.0" />
+                  <point x="759.3220238095237" y="215.0" />
+                  <point x="32.0" y="87.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.8" x="850.25" y="200.00000000000006" />
+              <SelectedNodes>
+                <node>evaluator.model.Intrebare</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -155,6 +300,60 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="evaluator" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -165,7 +364,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553010523074" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553010695625" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Requirements" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -223,15 +422,16 @@
       <workItem from="1552332780075" duration="348000" />
       <workItem from="1552988406025" duration="3481000" />
       <workItem from="1553007468574" duration="2446000" />
-      <workItem from="1553010009461" duration="372000" />
+      <workItem from="1553010009461" duration="686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6647000" />
+    <option name="totallyTimeSpent" value="6961000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26840067" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -340,8 +540,149 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/main/StartApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
+        <state relative-caret-position="135">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Requirements/diagrama.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="10.5" y="247.0">evaluator.model.Statistica</node>
+            <node x="594.8749999999998" y="533.0">evaluator.main.StartApp</node>
+            <node x="365.50000000000006" y="259.0">evaluator.util.InputValidation</node>
+            <node x="553.5" y="247.0">evaluator.model.Test</node>
+            <node x="1352.5" y="247.0">evaluator.exception.NotAbleToCreateStatisticsException</node>
+            <node x="1067.5" y="247.0">evaluator.exception.NotAbleToCreateTestException</node>
+            <node x="1418.0133928571431" y="60.0">evaluator.exception.DuplicateIntrebareException</node>
+            <node x="810.5" y="235.0">evaluator.repository.IntrebariRepository</node>
+            <node x="77.71041666666656" y="60.0">evaluator.exception.InputValidationFailedException</node>
+            <node x="615.3220238095237" y="0.0">evaluator.model.Intrebare</node>
+            <node x="407.87499999999994" y="394.0">evaluator.controller.AppController</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="evaluator.main.StartApp" target="evaluator.exception.NotAbleToCreateStatisticsException">
+              <point x="38.857142857143" y="-27.5" />
+              <point x="701.7321428571429" y="503.0" />
+              <point x="1576.75" y="503.0" />
+              <point x="74.75" y="27.5" />
+            </edge>
+            <edge source="evaluator.main.StartApp" target="evaluator.exception.NotAbleToCreateTestException">
+              <point x="19.42857142857156" y="-27.5" />
+              <point x="682.3035714285713" y="493.0" />
+              <point x="1266.25" y="493.0" />
+              <point x="66.25" y="27.5" />
+            </edge>
+            <edge source="evaluator.main.StartApp" target="evaluator.controller.AppController">
+              <point x="1.1368683772161603E-13" y="-27.5" />
+              <point x="85.0" y="39.5" />
+            </edge>
+            <edge source="evaluator.util.InputValidation" target="evaluator.exception.InputValidationFailedException">
+              <point x="0.0" y="-15.5" />
+              <point x="443.50000000000006" y="215.0" />
+              <point x="277.21041666666656" y="215.0" />
+              <point x="66.5" y="27.5" />
+            </edge>
+            <edge source="evaluator.controller.AppController" target="evaluator.model.Intrebare">
+              <point x="-42.5" y="-39.5" />
+              <point x="535.375" y="374.0" />
+              <point x="532.0" y="374.0" />
+              <point x="532.0" y="195.0" />
+              <point x="631.3220238095237" y="195.0" />
+              <point x="-96.0" y="87.5" />
+            </edge>
+            <edge source="evaluator.main.StartApp" target="evaluator.exception.InputValidationFailedException">
+              <point x="-58.28571428571422" y="-27.5" />
+              <point x="604.5892857142856" y="513.0" />
+              <point x="0.0" y="513.0" />
+              <point x="0.0" y="215.0" />
+              <point x="144.21041666666656" y="215.0" />
+              <point x="-66.5" y="27.5" />
+            </edge>
+            <edge source="evaluator.main.StartApp" target="evaluator.exception.DuplicateIntrebareException">
+              <point x="58.285714285714334" y="-27.5" />
+              <point x="721.1607142857142" y="513.0" />
+              <point x="1662.0" y="513.0" />
+              <point x="1662.0" y="215.0" />
+              <point x="1603.2633928571431" y="215.0" />
+              <point x="61.75" y="27.5" />
+            </edge>
+            <edge source="evaluator.controller.AppController" target="evaluator.exception.NotAbleToCreateTestException">
+              <point x="127.5" y="-39.5" />
+              <point x="705.375" y="364.0" />
+              <point x="1133.75" y="364.0" />
+              <point x="-66.25" y="27.5" />
+            </edge>
+            <edge source="evaluator.controller.AppController" target="evaluator.exception.NotAbleToCreateStatisticsException">
+              <point x="155.83333333333326" y="-39.5" />
+              <point x="733.7083333333333" y="374.0" />
+              <point x="1427.25" y="374.0" />
+              <point x="-74.75" y="27.5" />
+            </edge>
+            <edge source="evaluator.model.Test" target="evaluator.model.Intrebare">
+              <point x="-59.25" y="-27.5" />
+              <point x="612.75" y="215.0" />
+              <point x="695.3220238095237" y="215.0" />
+              <point x="-32.0" y="87.5" />
+            </edge>
+            <edge source="evaluator.main.StartApp" target="evaluator.model.Statistica">
+              <point x="-38.857142857142776" y="-27.5" />
+              <point x="624.0178571428571" y="503.0" />
+              <point x="86.36369047619041" y="503.0" />
+              <point x="86.36369047619041" y="374.0" />
+              <point x="66.33333333333326" y="374.0" />
+              <point x="-111.66666666666674" y="27.5" />
+            </edge>
+            <edge source="evaluator.repository.IntrebariRepository" target="evaluator.exception.DuplicateIntrebareException">
+              <point x="88.875" y="-39.5" />
+              <point x="1017.875" y="215.0" />
+              <point x="1479.7633928571431" y="215.0" />
+              <point x="-61.75" y="27.5" />
+            </edge>
+            <edge source="evaluator.controller.AppController" target="evaluator.model.Test">
+              <point x="42.5" y="-39.5" />
+              <point x="620.375" y="334.0" />
+              <point x="731.25" y="334.0" />
+              <point x="59.25" y="27.5" />
+            </edge>
+            <edge source="evaluator.controller.AppController" target="evaluator.repository.IntrebariRepository">
+              <point x="99.16666666666674" y="-39.5" />
+              <point x="677.0416666666667" y="354.0" />
+              <point x="988.25" y="354.0" />
+              <point x="59.25" y="39.5" />
+            </edge>
+            <edge source="evaluator.controller.AppController" target="evaluator.util.InputValidation">
+              <point x="-99.16666666666652" y="-39.5" />
+              <point x="478.7083333333334" y="354.0" />
+              <point x="404.50000000000006" y="354.0" />
+              <point x="-39.0" y="15.5" />
+            </edge>
+            <edge source="evaluator.controller.AppController" target="evaluator.model.Statistica">
+              <point x="-155.83333333333326" y="-39.5" />
+              <point x="422.0416666666667" y="374.0" />
+              <point x="178.0" y="374.0" />
+              <point x="0.0" y="27.5" />
+            </edge>
+            <edge source="evaluator.repository.IntrebariRepository" target="evaluator.model.Intrebare">
+              <point x="-88.875" y="-39.5" />
+              <point x="840.125" y="215.0" />
+              <point x="759.3220238095237" y="215.0" />
+              <point x="32.0" y="87.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8" x="850.25" y="200.00000000000006" />
+          <SelectedNodes>
+            <node>evaluator.model.Intrebare</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>

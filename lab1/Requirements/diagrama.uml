@@ -3,129 +3,133 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="295.5" y="247.0">evaluator.model.Statistica</node>
-    <node x="792.0" y="543.0">evaluator.main.StartApp</node>
-    <node x="650.5" y="259.0">evaluator.util.InputValidation</node>
-    <node x="826.5" y="247.0">evaluator.model.Test</node>
-    <node x="1352.5" y="247.0">evaluator.exception.NotAbleToCreateStatisticsException</node>
-    <node x="10.5" y="247.0">evaluator.exception.NotAbleToCreateTestException</node>
-    <node x="1418.0675595238097" y="60.0">evaluator.exception.DuplicateIntrebareException</node>
-    <node x="1095.5" y="235.0">evaluator.repository.IntrebariRepository</node>
-    <node x="232.66041666666672" y="60.0">evaluator.exception.InputValidationFailedException</node>
-    <node x="952.6875" y="0.0">evaluator.model.Intrebare</node>
-    <node x="775.0" y="404.0">evaluator.controller.AppController</node>
+    <node x="10.5" y="237.0">evaluator.model.Statistica</node>
+    <node x="771.125" y="523.0">evaluator.main.StartApp</node>
+    <node x="365.50000000000006" y="249.0">evaluator.util.InputValidation</node>
+    <node x="541.5" y="237.0">evaluator.model.Test</node>
+    <node x="1067.5" y="237.0">evaluator.exception.NotAbleToCreateStatisticsException</node>
+    <node x="1386.5" y="237.0">evaluator.exception.NotAbleToCreateTestException</node>
+    <node x="1426.8258928571431" y="60.0">evaluator.exception.DuplicateIntrebareException</node>
+    <node x="810.5" y="225.0">evaluator.repository.IntrebariRepository</node>
+    <node x="93.61666666666679" y="60.0">evaluator.exception.InputValidationFailedException</node>
+    <node x="654.3883928571431" y="-205.0">evaluator.model.Intrebare</node>
+    <node x="584.125" y="384.0">evaluator.controller.AppController</node>
   </nodes>
   <notes />
   <edges>
     <edge source="evaluator.main.StartApp" target="evaluator.exception.NotAbleToCreateStatisticsException">
-      <point x="38.85714285714289" y="-27.5" />
-      <point x="898.8571428571429" y="513.0" />
-      <point x="1576.75" y="513.0" />
+      <point x="19.428571428571445" y="-27.5" />
+      <point x="858.5535714285714" y="483.0" />
+      <point x="1291.75" y="483.0" />
       <point x="74.75" y="27.5" />
     </edge>
     <edge source="evaluator.main.StartApp" target="evaluator.exception.NotAbleToCreateTestException">
-      <point x="-38.85714285714289" y="-27.5" />
-      <point x="821.1428571428571" y="513.0" />
-      <point x="76.75" y="513.0" />
-      <point x="-66.25" y="27.5" />
+      <point x="38.85714285714289" y="-27.5" />
+      <point x="877.9821428571429" y="493.0" />
+      <point x="1585.25" y="493.0" />
+      <point x="66.25" y="27.5" />
     </edge>
     <edge source="evaluator.main.StartApp" target="evaluator.controller.AppController">
       <point x="0.0" y="-27.5" />
-      <point x="-85.0" y="39.5" />
+      <point x="85.0" y="39.5" />
     </edge>
     <edge source="evaluator.util.InputValidation" target="evaluator.exception.InputValidationFailedException">
-      <point x="-5.6843418860808015E-14" y="-15.5" />
-      <point x="728.5" y="215.0" />
-      <point x="432.1604166666667" y="215.0" />
+      <point x="0.0" y="-15.5" />
+      <point x="443.50000000000006" y="205.0" />
+      <point x="293.1166666666668" y="205.0" />
       <point x="66.5" y="27.5" />
     </edge>
     <edge source="evaluator.controller.AppController" target="evaluator.model.Intrebare">
-      <point x="70.83333333333337" y="-39.5" />
-      <point x="1015.8333333333333" y="354.0" />
-      <point x="1085.0" y="354.0" />
-      <point x="1085.0" y="205.0" />
-      <point x="1064.6875" y="205.0" />
+      <point x="42.5" y="-39.5" />
+      <point x="796.625" y="364.0" />
+      <point x="800.0" y="364.0" />
+      <point x="800.0" y="195.0" />
+      <point x="781.3883928571431" y="195.0" />
       <point x="0.0" y="87.5" />
     </edge>
     <edge source="evaluator.main.StartApp" target="evaluator.exception.InputValidationFailedException">
       <point x="-58.285714285714334" y="-27.5" />
-      <point x="801.7142857142856" y="523.0" />
-      <point x="0.0" y="523.0" />
-      <point x="0.0" y="215.0" />
-      <point x="299.1604166666667" y="215.0" />
+      <point x="780.8392857142857" y="503.0" />
+      <point x="0.0" y="503.0" />
+      <point x="0.0" y="205.0" />
+      <point x="160.1166666666668" y="205.0" />
       <point x="-66.5" y="27.5" />
     </edge>
     <edge source="evaluator.main.StartApp" target="evaluator.exception.DuplicateIntrebareException">
       <point x="58.28571428571422" y="-27.5" />
-      <point x="918.2857142857142" y="523.0" />
-      <point x="1662.0" y="523.0" />
-      <point x="1662.0" y="215.0" />
-      <point x="1603.3175595238097" y="215.0" />
+      <point x="897.4107142857142" y="503.0" />
+      <point x="1662.0" y="503.0" />
+      <point x="1662.0" y="205.0" />
+      <point x="1612.0758928571431" y="205.0" />
       <point x="61.75" y="27.5" />
     </edge>
     <edge source="evaluator.controller.AppController" target="evaluator.exception.NotAbleToCreateTestException">
-      <point x="-155.83333333333326" y="-39.5" />
-      <point x="789.1666666666667" y="384.0" />
-      <point x="209.25" y="384.0" />
-      <point x="66.25" y="27.5" />
+      <point x="155.83333333333326" y="-39.5" />
+      <point x="909.9583333333333" y="364.0" />
+      <point x="1452.75" y="364.0" />
+      <point x="-66.25" y="27.5" />
     </edge>
     <edge source="evaluator.controller.AppController" target="evaluator.exception.NotAbleToCreateStatisticsException">
-      <point x="155.83333333333326" y="-39.5" />
-      <point x="1100.8333333333333" y="384.0" />
-      <point x="1427.25" y="384.0" />
+      <point x="127.5" y="-39.5" />
+      <point x="881.625" y="354.0" />
+      <point x="1142.25" y="354.0" />
       <point x="-74.75" y="27.5" />
     </edge>
     <edge source="evaluator.model.Test" target="evaluator.model.Intrebare">
-      <point x="59.25" y="-27.5" />
-      <point x="1004.25" y="215.0" />
-      <point x="1000.6875" y="215.0" />
-      <point x="-64.0" y="87.5" />
+      <point x="-59.25" y="-27.5" />
+      <point x="600.75" y="205.0" />
+      <point x="685.3883928571431" y="205.0" />
+      <point x="-96.0" y="87.5" />
     </edge>
     <edge source="evaluator.main.StartApp" target="evaluator.model.Statistica">
-      <point x="-19.428571428571445" y="-27.5" />
-      <point x="840.5714285714284" y="503.0" />
-      <point x="351.33333333333326" y="503.0" />
-      <point x="-111.66666666666663" y="27.5" />
+      <point x="-38.85714285714289" y="-27.5" />
+      <point x="800.2678571428571" y="493.0" />
+      <point x="93.45744047619041" y="493.0" />
+      <point x="93.45744047619041" y="364.0" />
+      <point x="66.33333333333326" y="364.0" />
+      <point x="-111.66666666666674" y="27.5" />
     </edge>
     <edge source="evaluator.repository.IntrebariRepository" target="evaluator.exception.DuplicateIntrebareException">
       <point x="88.875" y="-39.5" />
-      <point x="1302.875" y="215.0" />
-      <point x="1479.8175595238097" y="215.0" />
+      <point x="1017.875" y="205.0" />
+      <point x="1488.5758928571431" y="205.0" />
       <point x="-61.75" y="27.5" />
     </edge>
     <edge source="evaluator.controller.AppController" target="evaluator.model.Test">
       <point x="-14.166666666666629" y="-39.5" />
-      <point x="930.8333333333333" y="334.0" />
-      <point x="885.75" y="334.0" />
-      <point x="-59.25" y="27.5" />
+      <point x="739.9583333333334" y="364.0" />
+      <point x="719.25" y="364.0" />
+      <point x="59.25" y="27.5" />
     </edge>
     <edge source="evaluator.controller.AppController" target="evaluator.repository.IntrebariRepository">
-      <point x="99.16666666666663" y="-39.5" />
-      <point x="1044.1666666666665" y="364.0" />
-      <point x="1154.75" y="364.0" />
-      <point x="-59.25" y="39.5" />
+      <point x="99.16666666666674" y="-39.5" />
+      <point x="853.2916666666667" y="344.0" />
+      <point x="988.25" y="344.0" />
+      <point x="59.25" y="39.5" />
     </edge>
     <edge source="evaluator.controller.AppController" target="evaluator.util.InputValidation">
-      <point x="-42.5" y="-39.5" />
-      <point x="902.5" y="344.0" />
-      <point x="767.5" y="344.0" />
-      <point x="39.0" y="15.5" />
+      <point x="-99.16666666666652" y="-39.5" />
+      <point x="654.9583333333335" y="344.0" />
+      <point x="404.50000000000006" y="344.0" />
+      <point x="-39.0" y="15.5" />
     </edge>
     <edge source="evaluator.controller.AppController" target="evaluator.model.Statistica">
-      <point x="-99.16666666666652" y="-39.5" />
-      <point x="845.8333333333335" y="364.0" />
-      <point x="574.6666666666667" y="364.0" />
-      <point x="111.66666666666669" y="27.5" />
+      <point x="-155.83333333333326" y="-39.5" />
+      <point x="598.2916666666667" y="364.0" />
+      <point x="178.0" y="364.0" />
+      <point x="0.0" y="27.5" />
     </edge>
     <edge source="evaluator.repository.IntrebariRepository" target="evaluator.model.Intrebare">
-      <point x="29.625" y="-39.5" />
-      <point x="1243.625" y="195.0" />
-      <point x="1160.6875" y="195.0" />
-      <point x="96.0" y="87.5" />
+      <point x="-88.875" y="-39.5" />
+      <point x="840.125" y="205.0" />
+      <point x="813.3883928571431" y="205.0" />
+      <point x="32.0" y="87.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="606.0" y="0.0" />
-  <SelectedNodes />
+  <settings layout="Hierarchic Group" zoom="0.8" x="850.25" y="200.00000000000006" />
+  <SelectedNodes>
+    <node>evaluator.model.Intrebare</node>
+  </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
   </Categories>
