@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="295.5" y="247.0">evaluator.model.Statistica</node>
+    <node x="792.0" y="543.0">evaluator.main.StartApp</node>
+    <node x="650.5" y="259.0">evaluator.util.InputValidation</node>
+    <node x="826.5" y="247.0">evaluator.model.Test</node>
+    <node x="1352.5" y="247.0">evaluator.exception.NotAbleToCreateStatisticsException</node>
+    <node x="10.5" y="247.0">evaluator.exception.NotAbleToCreateTestException</node>
+    <node x="1418.0675595238097" y="60.0">evaluator.exception.DuplicateIntrebareException</node>
+    <node x="1095.5" y="235.0">evaluator.repository.IntrebariRepository</node>
+    <node x="232.66041666666672" y="60.0">evaluator.exception.InputValidationFailedException</node>
+    <node x="952.6875" y="0.0">evaluator.model.Intrebare</node>
+    <node x="775.0" y="404.0">evaluator.controller.AppController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="evaluator.main.StartApp" target="evaluator.exception.NotAbleToCreateStatisticsException">
+      <point x="38.85714285714289" y="-27.5" />
+      <point x="898.8571428571429" y="513.0" />
+      <point x="1576.75" y="513.0" />
+      <point x="74.75" y="27.5" />
+    </edge>
+    <edge source="evaluator.main.StartApp" target="evaluator.exception.NotAbleToCreateTestException">
+      <point x="-38.85714285714289" y="-27.5" />
+      <point x="821.1428571428571" y="513.0" />
+      <point x="76.75" y="513.0" />
+      <point x="-66.25" y="27.5" />
+    </edge>
+    <edge source="evaluator.main.StartApp" target="evaluator.controller.AppController">
+      <point x="0.0" y="-27.5" />
+      <point x="-85.0" y="39.5" />
+    </edge>
+    <edge source="evaluator.util.InputValidation" target="evaluator.exception.InputValidationFailedException">
+      <point x="-5.6843418860808015E-14" y="-15.5" />
+      <point x="728.5" y="215.0" />
+      <point x="432.1604166666667" y="215.0" />
+      <point x="66.5" y="27.5" />
+    </edge>
+    <edge source="evaluator.controller.AppController" target="evaluator.model.Intrebare">
+      <point x="70.83333333333337" y="-39.5" />
+      <point x="1015.8333333333333" y="354.0" />
+      <point x="1085.0" y="354.0" />
+      <point x="1085.0" y="205.0" />
+      <point x="1064.6875" y="205.0" />
+      <point x="0.0" y="87.5" />
+    </edge>
+    <edge source="evaluator.main.StartApp" target="evaluator.exception.InputValidationFailedException">
+      <point x="-58.285714285714334" y="-27.5" />
+      <point x="801.7142857142856" y="523.0" />
+      <point x="0.0" y="523.0" />
+      <point x="0.0" y="215.0" />
+      <point x="299.1604166666667" y="215.0" />
+      <point x="-66.5" y="27.5" />
+    </edge>
+    <edge source="evaluator.main.StartApp" target="evaluator.exception.DuplicateIntrebareException">
+      <point x="58.28571428571422" y="-27.5" />
+      <point x="918.2857142857142" y="523.0" />
+      <point x="1662.0" y="523.0" />
+      <point x="1662.0" y="215.0" />
+      <point x="1603.3175595238097" y="215.0" />
+      <point x="61.75" y="27.5" />
+    </edge>
+    <edge source="evaluator.controller.AppController" target="evaluator.exception.NotAbleToCreateTestException">
+      <point x="-155.83333333333326" y="-39.5" />
+      <point x="789.1666666666667" y="384.0" />
+      <point x="209.25" y="384.0" />
+      <point x="66.25" y="27.5" />
+    </edge>
+    <edge source="evaluator.controller.AppController" target="evaluator.exception.NotAbleToCreateStatisticsException">
+      <point x="155.83333333333326" y="-39.5" />
+      <point x="1100.8333333333333" y="384.0" />
+      <point x="1427.25" y="384.0" />
+      <point x="-74.75" y="27.5" />
+    </edge>
+    <edge source="evaluator.model.Test" target="evaluator.model.Intrebare">
+      <point x="59.25" y="-27.5" />
+      <point x="1004.25" y="215.0" />
+      <point x="1000.6875" y="215.0" />
+      <point x="-64.0" y="87.5" />
+    </edge>
+    <edge source="evaluator.main.StartApp" target="evaluator.model.Statistica">
+      <point x="-19.428571428571445" y="-27.5" />
+      <point x="840.5714285714284" y="503.0" />
+      <point x="351.33333333333326" y="503.0" />
+      <point x="-111.66666666666663" y="27.5" />
+    </edge>
+    <edge source="evaluator.repository.IntrebariRepository" target="evaluator.exception.DuplicateIntrebareException">
+      <point x="88.875" y="-39.5" />
+      <point x="1302.875" y="215.0" />
+      <point x="1479.8175595238097" y="215.0" />
+      <point x="-61.75" y="27.5" />
+    </edge>
+    <edge source="evaluator.controller.AppController" target="evaluator.model.Test">
+      <point x="-14.166666666666629" y="-39.5" />
+      <point x="930.8333333333333" y="334.0" />
+      <point x="885.75" y="334.0" />
+      <point x="-59.25" y="27.5" />
+    </edge>
+    <edge source="evaluator.controller.AppController" target="evaluator.repository.IntrebariRepository">
+      <point x="99.16666666666663" y="-39.5" />
+      <point x="1044.1666666666665" y="364.0" />
+      <point x="1154.75" y="364.0" />
+      <point x="-59.25" y="39.5" />
+    </edge>
+    <edge source="evaluator.controller.AppController" target="evaluator.util.InputValidation">
+      <point x="-42.5" y="-39.5" />
+      <point x="902.5" y="344.0" />
+      <point x="767.5" y="344.0" />
+      <point x="39.0" y="15.5" />
+    </edge>
+    <edge source="evaluator.controller.AppController" target="evaluator.model.Statistica">
+      <point x="-99.16666666666652" y="-39.5" />
+      <point x="845.8333333333335" y="364.0" />
+      <point x="574.6666666666667" y="364.0" />
+      <point x="111.66666666666669" y="27.5" />
+    </edge>
+    <edge source="evaluator.repository.IntrebariRepository" target="evaluator.model.Intrebare">
+      <point x="29.625" y="-39.5" />
+      <point x="1243.625" y="195.0" />
+      <point x="1160.6875" y="195.0" />
+      <point x="96.0" y="87.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="606.0" y="0.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
