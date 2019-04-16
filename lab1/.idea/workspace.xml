@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="029b2804-3492-4df3-b5f1-a61dbd0c55fd" name="Default Changelist" comment="" />
+    <list default="true" id="029b2804-3492-4df3-b5f1-a61dbd0c55fd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/controller/AppController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/evaluator/controller/AppController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/exception/DuplicateIntrebareException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/evaluator/exception/DuplicateIntrebareException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/exception/InputValidationFailedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/evaluator/exception/InputValidationFailedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/exception/NotAbleToCreateStatisticsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/evaluator/exception/NotAbleToCreateStatisticsException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/exception/NotAbleToCreateTestException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/evaluator/exception/NotAbleToCreateTestException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/main/StartApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/evaluator/main/StartApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/model/Intrebare.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/evaluator/model/Intrebare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/model/Statistica.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/evaluator/model/Statistica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/model/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/evaluator/model/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/repository/IntrebariRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/evaluator/repository/IntrebariRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/util/InputValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/evaluator/util/InputValidation.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -9,6 +22,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/lab1$AppControllerTest.ic" NAME="AppControllerTest Coverage Results" MODIFIED="1555430585975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>evaluator.controller.*</FILTER>
+    </SUITE>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -30,154 +48,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Requirements/diagrama.uml">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement />
-              <nodes>
-                <node x="10.5" y="247.0">evaluator.model.Statistica</node>
-                <node x="594.8749999999998" y="533.0">evaluator.main.StartApp</node>
-                <node x="365.50000000000006" y="259.0">evaluator.util.InputValidation</node>
-                <node x="553.5" y="247.0">evaluator.model.Test</node>
-                <node x="1352.5" y="247.0">evaluator.exception.NotAbleToCreateStatisticsException</node>
-                <node x="1067.5" y="247.0">evaluator.exception.NotAbleToCreateTestException</node>
-                <node x="1418.0133928571431" y="60.0">evaluator.exception.DuplicateIntrebareException</node>
-                <node x="810.5" y="235.0">evaluator.repository.IntrebariRepository</node>
-                <node x="77.71041666666656" y="60.0">evaluator.exception.InputValidationFailedException</node>
-                <node x="615.3220238095237" y="0.0">evaluator.model.Intrebare</node>
-                <node x="407.87499999999994" y="394.0">evaluator.controller.AppController</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="evaluator.main.StartApp" target="evaluator.exception.NotAbleToCreateStatisticsException">
-                  <point x="38.857142857143" y="-27.5" />
-                  <point x="701.7321428571429" y="503.0" />
-                  <point x="1576.75" y="503.0" />
-                  <point x="74.75" y="27.5" />
-                </edge>
-                <edge source="evaluator.main.StartApp" target="evaluator.exception.NotAbleToCreateTestException">
-                  <point x="19.42857142857156" y="-27.5" />
-                  <point x="682.3035714285713" y="493.0" />
-                  <point x="1266.25" y="493.0" />
-                  <point x="66.25" y="27.5" />
-                </edge>
-                <edge source="evaluator.main.StartApp" target="evaluator.controller.AppController">
-                  <point x="1.1368683772161603E-13" y="-27.5" />
-                  <point x="85.0" y="39.5" />
-                </edge>
-                <edge source="evaluator.util.InputValidation" target="evaluator.exception.InputValidationFailedException">
-                  <point x="0.0" y="-15.5" />
-                  <point x="443.50000000000006" y="215.0" />
-                  <point x="277.21041666666656" y="215.0" />
-                  <point x="66.5" y="27.5" />
-                </edge>
-                <edge source="evaluator.controller.AppController" target="evaluator.model.Intrebare">
-                  <point x="-42.5" y="-39.5" />
-                  <point x="535.375" y="374.0" />
-                  <point x="532.0" y="374.0" />
-                  <point x="532.0" y="195.0" />
-                  <point x="631.3220238095237" y="195.0" />
-                  <point x="-96.0" y="87.5" />
-                </edge>
-                <edge source="evaluator.main.StartApp" target="evaluator.exception.InputValidationFailedException">
-                  <point x="-58.28571428571422" y="-27.5" />
-                  <point x="604.5892857142856" y="513.0" />
-                  <point x="0.0" y="513.0" />
-                  <point x="0.0" y="215.0" />
-                  <point x="144.21041666666656" y="215.0" />
-                  <point x="-66.5" y="27.5" />
-                </edge>
-                <edge source="evaluator.main.StartApp" target="evaluator.exception.DuplicateIntrebareException">
-                  <point x="58.285714285714334" y="-27.5" />
-                  <point x="721.1607142857142" y="513.0" />
-                  <point x="1662.0" y="513.0" />
-                  <point x="1662.0" y="215.0" />
-                  <point x="1603.2633928571431" y="215.0" />
-                  <point x="61.75" y="27.5" />
-                </edge>
-                <edge source="evaluator.controller.AppController" target="evaluator.exception.NotAbleToCreateTestException">
-                  <point x="127.5" y="-39.5" />
-                  <point x="705.375" y="364.0" />
-                  <point x="1133.75" y="364.0" />
-                  <point x="-66.25" y="27.5" />
-                </edge>
-                <edge source="evaluator.controller.AppController" target="evaluator.exception.NotAbleToCreateStatisticsException">
-                  <point x="155.83333333333326" y="-39.5" />
-                  <point x="733.7083333333333" y="374.0" />
-                  <point x="1427.25" y="374.0" />
-                  <point x="-74.75" y="27.5" />
-                </edge>
-                <edge source="evaluator.model.Test" target="evaluator.model.Intrebare">
-                  <point x="-59.25" y="-27.5" />
-                  <point x="612.75" y="215.0" />
-                  <point x="695.3220238095237" y="215.0" />
-                  <point x="-32.0" y="87.5" />
-                </edge>
-                <edge source="evaluator.main.StartApp" target="evaluator.model.Statistica">
-                  <point x="-38.857142857142776" y="-27.5" />
-                  <point x="624.0178571428571" y="503.0" />
-                  <point x="86.36369047619041" y="503.0" />
-                  <point x="86.36369047619041" y="374.0" />
-                  <point x="66.33333333333326" y="374.0" />
-                  <point x="-111.66666666666674" y="27.5" />
-                </edge>
-                <edge source="evaluator.repository.IntrebariRepository" target="evaluator.exception.DuplicateIntrebareException">
-                  <point x="88.875" y="-39.5" />
-                  <point x="1017.875" y="215.0" />
-                  <point x="1479.7633928571431" y="215.0" />
-                  <point x="-61.75" y="27.5" />
-                </edge>
-                <edge source="evaluator.controller.AppController" target="evaluator.model.Test">
-                  <point x="42.5" y="-39.5" />
-                  <point x="620.375" y="334.0" />
-                  <point x="731.25" y="334.0" />
-                  <point x="59.25" y="27.5" />
-                </edge>
-                <edge source="evaluator.controller.AppController" target="evaluator.repository.IntrebariRepository">
-                  <point x="99.16666666666674" y="-39.5" />
-                  <point x="677.0416666666667" y="354.0" />
-                  <point x="988.25" y="354.0" />
-                  <point x="59.25" y="39.5" />
-                </edge>
-                <edge source="evaluator.controller.AppController" target="evaluator.util.InputValidation">
-                  <point x="-99.16666666666652" y="-39.5" />
-                  <point x="478.7083333333334" y="354.0" />
-                  <point x="404.50000000000006" y="354.0" />
-                  <point x="-39.0" y="15.5" />
-                </edge>
-                <edge source="evaluator.controller.AppController" target="evaluator.model.Statistica">
-                  <point x="-155.83333333333326" y="-39.5" />
-                  <point x="422.0416666666667" y="374.0" />
-                  <point x="178.0" y="374.0" />
-                  <point x="0.0" y="27.5" />
-                </edge>
-                <edge source="evaluator.repository.IntrebariRepository" target="evaluator.model.Intrebare">
-                  <point x="-88.875" y="-39.5" />
-                  <point x="840.125" y="215.0" />
-                  <point x="759.3220238095237" y="215.0" />
-                  <point x="32.0" y="87.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.8" x="850.25" y="200.00000000000006" />
-              <SelectedNodes>
-                <node>evaluator.model.Intrebare</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Fields</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-529">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/AppControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="101" column="33" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
+            <state relative-caret-position="67">
+              <caret line="72" column="87" selection-start-line="72" selection-start-column="87" selection-end-line="72" selection-end-column="87" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -209,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/model/Intrebare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+            <state relative-caret-position="60">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -221,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/util/InputValidation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="353">
+              <caret line="72" column="71" lean-forward="true" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -238,6 +125,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -245,18 +139,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/evaluator/main/StartApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/evaluator/model/Intrebare.java" />
         <option value="$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/intrebari.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/evaluator/main/StartApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/evaluator/util/InputValidation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/evaluator/controller/AppControllerTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-355" />
-    <option name="width" value="1843" />
-    <option name="height" value="789" />
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="1853" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -264,6 +161,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -271,6 +169,11 @@
             <path>
               <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="Requirements" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
@@ -352,17 +255,51 @@
               <item name="evaluator" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553011102398" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555430607327" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Requirements" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -371,6 +308,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="evaluator.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
@@ -387,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AppControllerTest">
     <configuration name="StartApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="evaluator.main.StartApp" />
       <module name="lab1" />
@@ -401,8 +344,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="evaluator.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="evaluator.controller" />
+      <option name="MAIN_CLASS_NAME" value="evaluator.controller.AppControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppControllerTest" />
         <item itemvalue="Application.StartApp" />
       </list>
     </recent_temporary>
@@ -420,18 +379,27 @@
       <workItem from="1552332780075" duration="348000" />
       <workItem from="1552988406025" duration="3481000" />
       <workItem from="1553007468574" duration="2446000" />
-      <workItem from="1553010009461" duration="1003000" />
+      <workItem from="1553010009461" duration="1433000" />
+      <workItem from="1555415593961" duration="8219000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AppControllerTest - 2019.04.16 at 19h 01m 14s.xml">
+      <configuration name="AppControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppControllerTest - 2019.04.16 at 19h 02m 25s.xml">
+      <configuration name="AppControllerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7278000" />
+    <option name="totallyTimeSpent" value="15927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26840067" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2717211" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -440,7 +408,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297062" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35038084" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -478,71 +446,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="101" column="33" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="26" column="76" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="76" />
-          <folding>
-            <element signature="e#3000#3001#0" expanded="true" />
-            <element signature="e#3023#3024#0" expanded="true" />
-            <element signature="e#3079#3080#0" expanded="true" />
-            <element signature="e#3112#3113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/intrebari.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/model/Intrebare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/util/InputValidation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/model/Statistica.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/main/StartApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Requirements/diagrama.uml">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -672,7 +575,7 @@
               <point x="32.0" y="87.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.8" x="850.25" y="200.00000000000006" />
+          <settings layout="Hierarchic Group" zoom="0.8" x="324.0" y="-40.0" />
           <SelectedNodes>
             <node>evaluator.model.Intrebare</node>
           </SelectedNodes>
@@ -681,6 +584,81 @@
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/intrebari.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/model/Statistica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/model/Intrebare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/main/StartApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-529">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="26" column="76" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="76" />
+          <folding>
+            <element signature="e#3000#3001#0" expanded="true" />
+            <element signature="e#3023#3024#0" expanded="true" />
+            <element signature="e#3079#3080#0" expanded="true" />
+            <element signature="e#3112#3113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/util/InputValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="72" column="71" lean-forward="true" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/AppControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="72" column="87" selection-start-line="72" selection-start-column="87" selection-end-line="72" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

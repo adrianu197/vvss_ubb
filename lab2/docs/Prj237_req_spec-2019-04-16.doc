@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>reqspec Prj237 - usir2211_ReqSpec</title>
+<link type="text/css" rel="stylesheet" href="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo" height="53" src="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></div>
+<div class="doc_title"><p>Requirements Specification Document</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: Prj237</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 16/04/2019</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<p style="page-break-before: always"></p><table class="req_spec"><tr><th colspan="2"><h2 class="doclevel"> <span class="label">Requirements Spec.:</span> usir2211_ReqSpec : usir2211_ReqSpec</th></tr></h2>
+<tr><td width="20%"><span class="label">revision</span></td><td> 1</td></tr>
+<tr><td colspan="2"></td></tr></table><br/>
+<table class="req" ><tr><th colspan="2"><span class="label">Requirement:</span> usir2211_F01 : AdaugaIntrebare</th></tr>
+<tr><td colspan="2"> <br/><pre>
+Adaugarea unei noi intrebari pentru un anumit domeniu (enunt intrebare, varianta de raspuns 1, varianta de raspuns 2, varianta de raspuns 3, varianta xorecta de raspuns, domeniul) in setul de intrebari disponibile.
+
+
+Constrangeri:
+1. Nicio valoare nu poate fi vida.
+2. Enuntul incepe cu litera mare, ultimul caracter este &quot;?&quot; si nu depaseste 100 de caractere.
+3. Variantele de raspuns incep cu &quot;1)&quot;, &quot;2)&quot; sau &quot;3)&quot; si nu depasesc 50 de caractere.
+4. Varianta corecta este unul din caracterele &quot;1&quot;, &quot;2&quot; sau &quot;3&quot;.
+5. Domeniul incepe cu litera mare si nu depaseste 30 de caractere.</pre></td></tr></table><br/>
+</body>
+</html>
