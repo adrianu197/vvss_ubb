@@ -95,7 +95,7 @@ public class IntrebariRepository {
 							intrebareAuxSplit[2],
 							intrebareAuxSplit[3],
 							intrebareAuxSplit[4],
-							intrebareAuxSplit[0]
+							intrebareAuxSplit[5]
 					);
 					intrebari.add(intrebare);
 				}

@@ -2,6 +2,7 @@ package evaluator.controller;
 
 import evaluator.exception.DuplicateIntrebareException;
 import evaluator.exception.InputValidationFailedException;
+import evaluator.exception.NotAbleToCreateTestException;
 import evaluator.model.Intrebare;
 import org.junit.Before;
 import org.junit.Test;
@@ -12,10 +13,14 @@ import static org.junit.Assert.*;
 
 public class AppControllerTest {
     AppController ctrl;
-
+    AppController ctrl2;
+    String domenii_4 = "/home/adrian/Documents/Documents/school/vvss/lab1/src/main/resources/domenii_4.txt";
+    String intrebari_4 = "/home/adrian/Documents/Documents/school/vvss/lab1/src/main/resources/intrebari_4.txt";
+    String intrebari_correct = "/home/adrian/Documents/Documents/school/vvss/lab1/src/main/resources/intrebari1.txt";
     @Before
     public void setUp() throws Exception {
-        this.ctrl = new AppController("tests.txt");
+        this.ctrl = new AppController("/home/adrian/Documents/Documents/school/vvss/lab1/src/main/resources/repoTest.txt");
+        this.ctrl2 = new AppController("/home/adrian/Documents/Documents/school/vvss/lab1/src/main/resources/repoTest.txt");
     }
 
     @Test
@@ -31,6 +36,8 @@ public class AppControllerTest {
                     "1",
                     "Stare"
             );
+        if(!this.ctrl.exists(intr1))
+                assert false;
         } catch (InputValidationFailedException | DuplicateIntrebareException e) {
             assert false;
         }
@@ -124,6 +131,42 @@ public class AppControllerTest {
             );
         } catch (InputValidationFailedException | DuplicateIntrebareException e) {
             assertEquals(e.getMessage(),"Domeniul este vid!");
+        }
+    }
+
+
+    @Test
+    public void createNewTest() {
+        ctrl2.loadIntrebariFromFile(domenii_4);
+        try {
+            evaluator.model.Test test = ctrl2.createNewTest();
+            assert false;
+        } catch (NotAbleToCreateTestException e) {
+            assertEquals(e.getMessage(),"Nu exista suficiente domenii pentru crearea unui test!(5)");
+        }
+    }
+    @Test
+    public void createNewTest1() {
+        ctrl2.loadIntrebariFromFile(intrebari_4);
+        try {
+            evaluator.model.Test test = ctrl2.createNewTest();
+            assert false;
+        } catch (NotAbleToCreateTestException e) {
+            assertEquals(e.getMessage(),"Nu exista suficiente intrebari pentru crearea unui test!(5)");
+        }
+    }
+    @Test
+    public void createNewTest2() {
+        ctrl2.loadIntrebariFromFile(intrebari_correct);
+        try {
+            evaluator.model.Test test = ctrl2.createNewTest();
+            if(!ctrl2.getIntrebariRepository().getIntrebari().containsAll(test.getIntrebari())){
+                assert false;
+            }else {
+                assert true;
+            }
+        } catch (NotAbleToCreateTestException e) {
+            assert false;
         }
     }
 }
