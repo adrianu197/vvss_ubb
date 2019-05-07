@@ -1,6 +1,7 @@
 package evaluator.repository;
 
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.LinkedList;
@@ -10,14 +11,16 @@ import java.util.Set;
 import java.util.TreeSet;
 
 
+import evaluator.exception.InputValidationFailedException;
 import evaluator.model.Intrebare;
 import evaluator.exception.DuplicateIntrebareException;
 
 public class IntrebariRepository {
 
 	private List<Intrebare> intrebari;
-	
-	public IntrebariRepository() {
+	private final String fileName;
+	public IntrebariRepository(String fileName) {
+		this.fileName = fileName;
 		setIntrebari(new LinkedList<Intrebare>());
 	}
 	
@@ -66,13 +69,13 @@ public class IntrebariRepository {
 		return getIntrebariByDomain(domain).size();
 	}
 	
-	public List<Intrebare> loadIntrebariFromFile(String f){
+	public List<Intrebare> loadIntrebariFromFile(String f) throws FileNotFoundException {
 		
 		List<Intrebare> intrebari = new LinkedList<Intrebare>();
-		BufferedReader br = null; 
+		FileReader fr = new FileReader(this.fileName);
+		BufferedReader br = new BufferedReader(fr);
 		String line = null;
 		List<String> intrebareAux;
-		Intrebare intrebare;
 		
 		try{
 			br = new BufferedReader(new FileReader(f));
@@ -83,13 +86,20 @@ public class IntrebariRepository {
 					intrebareAux.add(line);
 					line = br.readLine();
 				}
-				intrebare = new Intrebare();
-				intrebare.setEnunt(intrebareAux.get(0));
-				intrebare.setVarianta1(intrebareAux.get(1));
-				intrebare.setVarianta2(intrebareAux.get(2));
-				intrebare.setVariantaCorecta(intrebareAux.get(4));
-				intrebare.setDomeniu(intrebareAux.get(5));
-				intrebari.add(intrebare);
+				for (String intrebareStr:intrebareAux) {
+					String[] intrebareAuxSplit = intrebareStr.split(",");
+					Intrebare intrebare = null;
+					intrebare = new Intrebare(
+							intrebareAuxSplit[0],
+							intrebareAuxSplit[1],
+							intrebareAuxSplit[2],
+							intrebareAuxSplit[3],
+							intrebareAuxSplit[4],
+							intrebareAuxSplit[5]
+					);
+					intrebari.add(intrebare);
+				}
+
 				line = br.readLine();
 			}
 		

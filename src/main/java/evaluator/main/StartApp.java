@@ -4,6 +4,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import evaluator.exception.DuplicateIntrebareException;
+import evaluator.exception.InputValidationFailedException;
+import evaluator.exception.NotAbleToCreateTestException;
+import evaluator.model.Intrebare;
 import evaluator.model.Statistica;
 
 import evaluator.controller.AppController;
@@ -16,16 +20,16 @@ import evaluator.exception.NotAbleToCreateStatisticsException;
 
 public class StartApp {
 
-	private static final String file = "intrebari.txt";
+	private static final String file = "/home/adrian/Documents/school/vvss/lab1/src/main/resources/intrebari.txt";
 	
 	public static void main(String[] args) throws IOException {
 		
 		BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
 		
-		AppController appController = new AppController();
+		AppController appController = new AppController(file);
 		
 		boolean activ = true;
-		String optiune = null;
+		String optiune;
 		
 		while(activ){
 			
@@ -39,26 +43,54 @@ public class StartApp {
 			optiune = console.readLine();
 			
 			switch(optiune){
-			case "1" :
-				break;
-			case "2" :
-				break;
-			case "3" :
-				appController.loadIntrebariFromFile(file);
-				Statistica statistica;
-				try {
-					statistica = appController.getStatistica();
-					System.out.println(statistica);
-				} catch (NotAbleToCreateStatisticsException e) {
-					// TODO 
-				}
-				
-				break;
-			case "4" :
-				activ = false;
-				break;
-			default:
-				break;
+				case "1" :
+					String enunt,varianta1,varianta2,varianta3,variantaCorecta,domeniu;
+					System.out.print("Introduceti enuntul intrebarii:");
+					enunt = console.readLine();
+					System.out.print("Introduceti varianta 1:");
+					varianta1 = console.readLine();
+					System.out.print("Introduceti varianta 2:");
+					varianta2 = console.readLine();
+					System.out.print("Introduceti varianta 3:");
+					varianta3 = console.readLine();
+					System.out.print("Introduceti varianta corecta:");
+					variantaCorecta = console.readLine();
+					System.out.print("Introduceti domeniul intrebarii:");
+					domeniu = console.readLine();
+					try {
+						appController.addNewIntrebare(enunt,
+								varianta1,
+								varianta2,
+								varianta3,
+								variantaCorecta,
+								domeniu);
+					} catch (DuplicateIntrebareException | InputValidationFailedException e) {
+						System.out.println("A aparut urmatoarea eroare:" + e.getMessage());
+					}
+					break;
+				case "2" :
+					try {
+						appController.createNewTest();
+					} catch (NotAbleToCreateTestException e) {
+						System.out.println("A aparut urmatoarea eroare:" + e.getMessage());
+					}
+					break;
+				case "3" :
+					appController.loadIntrebariFromFile(file);
+					Statistica statistica;
+					try {
+						statistica = appController.getStatistica();
+						System.out.println(statistica);
+					} catch (NotAbleToCreateStatisticsException e) {
+						System.out.println("A aparut urmatoarea eroare:" + e.getMessage());
+					}
+
+					break;
+				case "4" :
+					activ = false;
+					break;
+				default:
+					break;
 			}
 		}
 		

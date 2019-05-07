@@ -1,8 +1,10 @@
 package evaluator.controller;
 
+import java.io.FileNotFoundException;
 import java.util.LinkedList;
 import java.util.List;
 
+import evaluator.exception.InputValidationFailedException;
 import evaluator.model.Intrebare;
 import evaluator.model.Statistica;
 import evaluator.model.Test;
@@ -10,13 +12,19 @@ import evaluator.repository.IntrebariRepository;
 import evaluator.exception.DuplicateIntrebareException;
 import evaluator.exception.NotAbleToCreateStatisticsException;
 import evaluator.exception.NotAbleToCreateTestException;
+import evaluator.util.InputValidation;
 
 public class AppController {
-	
+	private InputValidation inputValidation;
+
+	public IntrebariRepository getIntrebariRepository() {
+		return intrebariRepository;
+	}
+
 	private IntrebariRepository intrebariRepository;
 	
-	public AppController() {
-		intrebariRepository = new IntrebariRepository();
+	public AppController(String fileName) {
+		intrebariRepository = new IntrebariRepository(fileName);
 	}
 	
 	public Intrebare addNewIntrebare(Intrebare intrebare) throws DuplicateIntrebareException{
@@ -32,10 +40,10 @@ public class AppController {
 	
 	public Test createNewTest() throws NotAbleToCreateTestException{
 		
-		if(intrebariRepository.getIntrebari().size() < 3)
+		if(intrebariRepository.getIntrebari().size() < 5)
 			throw new NotAbleToCreateTestException("Nu exista suficiente intrebari pentru crearea unui test!(5)");
 		
-		if(intrebariRepository.getNumberOfDistinctDomains() < 4)
+		if(intrebariRepository.getNumberOfDistinctDomains() < 5)
 			throw new NotAbleToCreateTestException("Nu exista suficiente domenii pentru crearea unui test!(5)");
 		
 		List<Intrebare> testIntrebari = new LinkedList<Intrebare>();
@@ -43,10 +51,10 @@ public class AppController {
 		Intrebare intrebare;
 		Test test = new Test();
 		
-		while(testIntrebari.size() != 7){
+		while(testIntrebari.size() != 5){
 			intrebare = intrebariRepository.pickRandomIntrebare();
 			
-			if(testIntrebari.contains(intrebare) && !domenii.contains(intrebare.getDomeniu())){
+			if(!testIntrebari.contains(intrebare) && !domenii.contains(intrebare.getDomeniu())){
 				testIntrebari.add(intrebare);
 				domenii.add(intrebare.getDomeniu());
 			}
@@ -59,7 +67,11 @@ public class AppController {
 	}
 	
 	public void loadIntrebariFromFile(String f){
-		intrebariRepository.setIntrebari(intrebariRepository.loadIntrebariFromFile(f));
+		try {
+			intrebariRepository.setIntrebari(intrebariRepository.loadIntrebariFromFile(f));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	public Statistica getStatistica() throws NotAbleToCreateStatisticsException{
@@ -75,4 +87,25 @@ public class AppController {
 		return statistica;
 	}
 
+	public Intrebare addNewIntrebare(String enunt, String varianta1, String varianta2, String varianta3, String variantaCorecta, String domeniu) throws InputValidationFailedException, DuplicateIntrebareException {
+		InputValidation.validateEnunt(enunt);
+		InputValidation.validateVarianta1(varianta1);
+		InputValidation.validateVarianta2(varianta2);
+		InputValidation.validateVarianta3(varianta3);
+		InputValidation.validateVariantaCorecta(variantaCorecta);
+		InputValidation.validateDomeniu(domeniu);
+
+		Intrebare intrebare = new Intrebare(
+				enunt,
+				varianta1,
+				varianta2,
+				varianta3,
+				variantaCorecta,
+				domeniu
+		);
+
+		intrebariRepository.addIntrebare(intrebare);
+
+		return intrebare;
+	}
 }
