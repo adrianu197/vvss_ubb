@@ -17,15 +17,15 @@ import static org.junit.Assert.*;
 public class AppControllerTest {
     AppController ctrl;
     AppController ctrl2;
-    String domenii_4 = "domenii_4.txt";
-    String intrebari_4 = "intrebari_4.txt";
-    String intrebari_correct = "intrebari1.txt";
-    String intrebari_gol = "intrebari_gol.txt";
+    String domenii_4 = "src/main/resources/domenii_4.txt";
+    String intrebari_4 = "src/main/resources/intrebari_4.txt";
+    String intrebari_correct = "src/main/resources/intrebari1.txt";
+    String intrebari_gol = "src/main/resources/intrebari_gol.txt";
 
     @Before
     public void setUp() throws Exception {
-        this.ctrl = new AppController("intrebari1.txt");
-        this.ctrl2 = new AppController("intrebari1.txt");
+        this.ctrl = new AppController("src/main/resources/intrebari1.txt");
+        this.ctrl2 = new AppController("src/main/resources/intrebari1.txt");
     }
 
     @Test

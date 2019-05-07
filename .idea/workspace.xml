@@ -1,7 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db46a182-42f1-4039-aa1c-3392a410aaa5" name="Default" comment="" />
+    <list default="true" id="db46a182-42f1-4039-aa1c-3392a410aaa5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProiectEvaluatorExamen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProiectEvaluatorExamen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/.idea/lab1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/Requirements/.~lock.Lab01_ReviewReport.xlsx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/Requirements/Lab01_Architectural Design Phase Defects Checklist.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/Requirements/Lab01_Program Coding Phase Defects Checklist.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/Requirements/Lab01_Requirements Phase Defects Checklist.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/Requirements/Lab01_ReviewReport.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/Requirements/cerinta noua.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/Requirements/diagrama.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/evaluator/controller/AppController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/evaluator/exception/DuplicateIntrebareException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/evaluator/exception/InputValidationFailedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/evaluator/exception/NotAbleToCreateStatisticsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/evaluator/exception/NotAbleToCreateTestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/evaluator/main/StartApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/evaluator/model/Intrebare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/evaluator/model/Statistica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/evaluator/model/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/evaluator/repository/IntrebariRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/evaluator/util/InputValidation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/resources/domenii_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/resources/intrebari.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/resources/intrebari1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/resources/intrebari_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/resources/intrebari_gol.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/resources/repo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/main/resources/repoTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/test/java/evaluator/controller/AppControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/test/java/evaluator/controller/BigBang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/test/java/evaluator/controller/TopDown.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/target/classes/domenii_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/target/classes/evaluator/controller/AppController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/target/classes/evaluator/exception/DuplicateIntrebareException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/target/classes/evaluator/exception/InputValidationFailedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/target/classes/evaluator/exception/NotAbleToCreateStatisticsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/target/classes/evaluator/exception/NotAbleToCreateTestException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/target/classes/evaluator/main/StartApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/target/classes/evaluator/model/Intrebare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/target/classes/evaluator/model/Statistica.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/target/classes/evaluator/model/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/target/classes/evaluator/repository/IntrebariRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/target/classes/evaluator/util/InputValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/target/classes/intrebari.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/target/classes/intrebari1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/target/classes/intrebari_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/target/classes/intrebari_gol.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/target/classes/repo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/target/classes/repoTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/target/test-classes/evaluator/controller/AppControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/target/test-classes/evaluator/controller/BigBang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/target/test-classes/evaluator/controller/TopDown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/evaluator/controller/AppControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/evaluator/controller/AppControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/evaluator/controller/BigBang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/evaluator/controller/BigBang.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,50 +72,48 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/main/StartApp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="375">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/AppControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2118">
+              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/BigBang.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="18" selection-start-line="18" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/TopDown.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/exception/DuplicateIntrebareException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/exception/InputValidationFailedException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="180">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -97,7 +157,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="90">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -122,6 +182,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -138,6 +201,9 @@
         <option value="$PROJECT_DIR$/src/main/java/evaluator/model/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/evaluator/util/InputValidation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/evaluator/controller/AppControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/evaluator/controller/BigBang.java" />
+        <option value="$PROJECT_DIR$/src/test/java/evaluator/controller/TopDown.java" />
       </list>
     </option>
   </component>
@@ -159,119 +225,62 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProiectEvaluatorExamen" type="462c0819:PsiDirectoryNode" />
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProiectEvaluatorExamen" type="462c0819:PsiDirectoryNode" />
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProiectEvaluatorExamen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProiectEvaluatorExamen" type="462c0819:PsiDirectoryNode" />
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProiectEvaluatorExamen" type="462c0819:PsiDirectoryNode" />
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProiectEvaluatorExamen" type="462c0819:PsiDirectoryNode" />
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProiectEvaluatorExamen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProiectEvaluatorExamen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProiectEvaluatorExamen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProiectEvaluatorExamen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProiectEvaluatorExamen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProiectEvaluatorExamen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProiectEvaluatorExamen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550998801344" />
@@ -308,6 +317,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProiectEvaluatorExamen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="evaluator.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="true" />
+      <option name="PACKAGE_NAME" value="evaluator.controller" />
+      <option name="MAIN_CLASS_NAME" value="evaluator.controller.AppControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="recording" autostart="true" />
@@ -337,6 +363,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppControllerTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Cami\AppData\Roaming\Subversion</configuration>
@@ -353,17 +384,32 @@
       <workItem from="1550999002065" duration="55000" />
       <workItem from="1552237223119" duration="503000" />
       <workItem from="1552237908467" duration="1521000" />
+      <workItem from="1557243148697" duration="180000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AppControllerTest - 2019.05.07 at 18h 32m 59s.xml">
+      <configuration name="AppControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppControllerTest - 2019.05.07 at 18h 34m 15s.xml">
+      <configuration name="AppControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppControllerTest - 2019.05.07 at 18h 34m 28s.xml">
+      <configuration name="AppControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppControllerTest - 2019.05.07 at 18h 35m 05s.xml">
+      <configuration name="AppControllerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4643000" />
+    <option name="totallyTimeSpent" value="4823000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26414087" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26729387" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -372,13 +418,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49749058" weight="0.33238637" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49749058" visible="true" weight="0.3315335" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5025094" side_tool="true" weight="0.33238637" />
-      <window_info anchor="bottom" id="Messages" order="8" visible="true" weight="0.32846716" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32846716" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -536,6 +582,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/main/StartApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/exception/DuplicateIntrebareException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -586,7 +642,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="90">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -604,23 +660,35 @@
     <entry file="file://$PROJECT_DIR$/ProiectEvaluatorExamen.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/main/StartApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="375">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/AppControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-2118">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/BigBang.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="18" selection-start-line="18" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/TopDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>

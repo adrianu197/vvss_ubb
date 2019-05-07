@@ -16,12 +16,12 @@ import static org.junit.Assert.assertEquals;
 public class BigBang {
 
     private AppController appController;
-    private static final String domenii_4 = "domenii_4.txt";
-    private static final String intrebari = "intrebari1.txt";
+    private static final String domenii_4 = "src/main/resources/domenii_4.txt";
+    private static final String intrebari = "src/main/resources/intrebari1.txt";
 
     @Before
     public void init() {
-        appController = new AppController("intrebari1.txt");
+        appController = new AppController("src/main/resources/intrebari1.txt");
     }
 
     @Rule

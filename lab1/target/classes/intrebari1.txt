@@ -1,6 +1,0 @@
-Ala?,1)bala,2)porto,3)cala,1,Random
-Ala1?,1)bala,2)porto,3)cala,1,Random1
-Ala2?,1)bala,2)porto,3)cala,1,Random2
-Ala3?,1)bala,2)porto,3)cala,1,Random3
-Ala4?,1)bala,2)porto,3)cala,1,Random4
-##
