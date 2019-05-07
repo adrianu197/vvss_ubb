@@ -2,8 +2,10 @@ package evaluator.controller;
 
 import evaluator.exception.DuplicateIntrebareException;
 import evaluator.exception.InputValidationFailedException;
+import evaluator.exception.NotAbleToCreateStatisticsException;
 import evaluator.exception.NotAbleToCreateTestException;
 import evaluator.model.Intrebare;
+import evaluator.model.Statistica;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,12 +13,14 @@ import java.util.Collections;
 
 import static org.junit.Assert.*;
 
-    public class AppControllerTest {
+public class AppControllerTest {
     AppController ctrl;
     AppController ctrl2;
     String domenii_4 = "/home/adrian/Documents/Documents/school/vvss/lab1/src/main/resources/domenii_4.txt";
     String intrebari_4 = "/home/adrian/Documents/Documents/school/vvss/lab1/src/main/resources/intrebari_4.txt";
     String intrebari_correct = "/home/adrian/Documents/Documents/school/vvss/lab1/src/main/resources/intrebari1.txt";
+    String intrebari_gol = "/home/adrian/Documents/Documents/school/vvss/lab1/src/main/resources/intrebari_gol.txt";
+
     @Before
     public void setUp() throws Exception {
         this.ctrl = new AppController("/home/adrian/Documents/Documents/school/vvss/lab1/src/main/resources/repoTest.txt");
@@ -36,7 +40,7 @@ import static org.junit.Assert.*;
                     "1",
                     "Stare"
             );
-        if(!this.ctrl.exists(intr1))
+            if (!this.ctrl.exists(intr1))
                 assert false;
         } catch (InputValidationFailedException | DuplicateIntrebareException e) {
             assert false;
@@ -55,9 +59,10 @@ import static org.junit.Assert.*;
                     "Stare"
             );
         } catch (InputValidationFailedException | DuplicateIntrebareException e) {
-            assertEquals(e.getMessage(),"Prima litera din enunt nu e majuscula!");
+            assertEquals(e.getMessage(), "Prima litera din enunt nu e majuscula!");
         }
     }
+
     @Test
     public void addNewIntrebare3() {
         try {
@@ -70,9 +75,10 @@ import static org.junit.Assert.*;
                     "stare"
             );
         } catch (InputValidationFailedException | DuplicateIntrebareException e) {
-            assertEquals(e.getMessage(),"Prima litera din domeniu nu e majuscula!");
+            assertEquals(e.getMessage(), "Prima litera din domeniu nu e majuscula!");
         }
     }
+
     @Test
     public void addNewIntrebare4() {
         try {
@@ -85,9 +91,10 @@ import static org.junit.Assert.*;
                     "Stare"
             );
         } catch (InputValidationFailedException | DuplicateIntrebareException e) {
-            assertEquals(e.getMessage(),"Lungimea enuntului depaseste 100 de caractere!");
+            assertEquals(e.getMessage(), "Lungimea enuntului depaseste 100 de caractere!");
         }
     }
+
     @Test
     public void addNewIntrebare5() {
         try {
@@ -100,9 +107,10 @@ import static org.junit.Assert.*;
                     String.join("", Collections.nCopies(31, String.valueOf('A')))
             );
         } catch (InputValidationFailedException | DuplicateIntrebareException e) {
-            assertEquals(e.getMessage(),"Lungimea domeniului depaseste 30 de caractere!");
+            assertEquals(e.getMessage(), "Lungimea domeniului depaseste 30 de caractere!");
         }
     }
+
     @Test
     public void addNewIntrebare6() {
         try {
@@ -115,9 +123,10 @@ import static org.junit.Assert.*;
                     "Stare"
             );
         } catch (InputValidationFailedException | DuplicateIntrebareException e) {
-            assertEquals(e.getMessage(),"Ultimul caracter din enunt nu e '?'!");
+            assertEquals(e.getMessage(), "Ultimul caracter din enunt nu e '?'!");
         }
     }
+
     @Test
     public void addNewIntrebare7() {
         try {
@@ -130,7 +139,7 @@ import static org.junit.Assert.*;
                     ""
             );
         } catch (InputValidationFailedException | DuplicateIntrebareException e) {
-            assertEquals(e.getMessage(),"Domeniul este vid!");
+            assertEquals(e.getMessage(), "Domeniul este vid!");
         }
     }
 
@@ -142,9 +151,10 @@ import static org.junit.Assert.*;
             evaluator.model.Test test = ctrl2.createNewTest();
             assert false;
         } catch (NotAbleToCreateTestException e) {
-            assertEquals(e.getMessage(),"Nu exista suficiente domenii pentru crearea unui test!(5)");
+            assertEquals(e.getMessage(), "Nu exista suficiente domenii pentru crearea unui test!(5)");
         }
     }
+
     @Test
     public void createNewTest1() {
         ctrl2.loadIntrebariFromFile(intrebari_4);
@@ -152,21 +162,34 @@ import static org.junit.Assert.*;
             evaluator.model.Test test = ctrl2.createNewTest();
             assert false;
         } catch (NotAbleToCreateTestException e) {
-            assertEquals(e.getMessage(),"Nu exista suficiente intrebari pentru crearea unui test!(5)");
+            assertEquals(e.getMessage(), "Nu exista suficiente intrebari pentru crearea unui test!(5)");
         }
     }
+
     @Test
     public void createNewTest2() {
         ctrl2.loadIntrebariFromFile(intrebari_correct);
         try {
             evaluator.model.Test test = ctrl2.createNewTest();
-            if(!ctrl2.getIntrebariRepository().getIntrebari().containsAll(test.getIntrebari())){
+            if (!ctrl2.getIntrebariRepository().getIntrebari().containsAll(test.getIntrebari())) {
                 assert false;
-            }else {
+            } else {
                 assert true;
             }
         } catch (NotAbleToCreateTestException e) {
             assert false;
+        }
+    }
+
+    @Test
+    public void getStatisticaTest() {
+
+        ctrl.loadIntrebariFromFile(intrebari_gol);
+        try {
+            Statistica statistica = ctrl.getStatistica();
+            assert false;
+        } catch (NotAbleToCreateStatisticsException e) {
+            assertEquals("Repository-ul nu contine nicio intrebare!", e.getMessage());
         }
     }
 }
