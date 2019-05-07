@@ -20,7 +20,7 @@ public class TopDown {
     private static final String intrebari = "src/main/resources/intrebari1.txt";
 
     @Before
-    public void init() {
+    public void setUp() {
         appController = new AppController("src/main/resources/intrebari1.txt");
     }
 

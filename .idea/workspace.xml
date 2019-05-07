@@ -2,67 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db46a182-42f1-4039-aa1c-3392a410aaa5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProiectEvaluatorExamen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProiectEvaluatorExamen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/.idea/lab1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/Requirements/.~lock.Lab01_ReviewReport.xlsx#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/Requirements/Lab01_Architectural Design Phase Defects Checklist.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/Requirements/Lab01_Program Coding Phase Defects Checklist.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/Requirements/Lab01_Requirements Phase Defects Checklist.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/Requirements/Lab01_ReviewReport.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/Requirements/cerinta noua.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/Requirements/diagrama.uml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/evaluator/controller/AppController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/evaluator/exception/DuplicateIntrebareException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/evaluator/exception/InputValidationFailedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/evaluator/exception/NotAbleToCreateStatisticsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/evaluator/exception/NotAbleToCreateTestException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/evaluator/main/StartApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/evaluator/model/Intrebare.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/evaluator/model/Statistica.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/evaluator/model/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/evaluator/repository/IntrebariRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/main/java/evaluator/util/InputValidation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/main/resources/domenii_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/main/resources/intrebari.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/main/resources/intrebari1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/main/resources/intrebari_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/main/resources/intrebari_gol.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/main/resources/repo.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/main/resources/repoTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/test/java/evaluator/controller/AppControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/test/java/evaluator/controller/BigBang.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/test/java/evaluator/controller/TopDown.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/target/classes/domenii_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/target/classes/evaluator/controller/AppController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/target/classes/evaluator/exception/DuplicateIntrebareException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/target/classes/evaluator/exception/InputValidationFailedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/target/classes/evaluator/exception/NotAbleToCreateStatisticsException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/target/classes/evaluator/exception/NotAbleToCreateTestException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/target/classes/evaluator/main/StartApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/target/classes/evaluator/model/Intrebare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/target/classes/evaluator/model/Statistica.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/target/classes/evaluator/model/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/target/classes/evaluator/repository/IntrebariRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/target/classes/evaluator/util/InputValidation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/target/classes/intrebari.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/target/classes/intrebari1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/target/classes/intrebari_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/target/classes/intrebari_gol.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/target/classes/repo.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/target/classes/repoTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/target/test-classes/evaluator/controller/AppControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/target/test-classes/evaluator/controller/BigBang.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/target/test-classes/evaluator/controller/TopDown.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/evaluator/controller/AppControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/evaluator/controller/AppControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/evaluator/controller/BigBang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/evaluator/controller/BigBang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/evaluator/controller/TopDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/evaluator/controller/TopDown.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -94,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/AppControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2118">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            <state relative-caret-position="195">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -103,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/BigBang.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="18" selection-start-line="18" selection-end-line="25" />
+            <state relative-caret-position="315">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -112,8 +52,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/TopDown.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="165">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+              <folding>
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#843#844#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -302,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TopDown">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -328,6 +272,40 @@
       <extension name="recording" autostart="true" />
       <option name="PACKAGE_NAME" value="evaluator.controller" />
       <option name="MAIN_CLASS_NAME" value="evaluator.controller.AppControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BigBang" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProiectEvaluatorExamen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="evaluator.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="true" />
+      <option name="PACKAGE_NAME" value="evaluator.controller" />
+      <option name="MAIN_CLASS_NAME" value="evaluator.controller.BigBang" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProiectEvaluatorExamen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="evaluator.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="true" />
+      <option name="PACKAGE_NAME" value="evaluator.controller" />
+      <option name="MAIN_CLASS_NAME" value="evaluator.controller.TopDown" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -365,6 +343,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TopDown" />
+        <item itemvalue="JUnit.BigBang" />
         <item itemvalue="JUnit.AppControllerTest" />
       </list>
     </recent_temporary>
@@ -384,7 +364,7 @@
       <workItem from="1550999002065" duration="55000" />
       <workItem from="1552237223119" duration="503000" />
       <workItem from="1552237908467" duration="1521000" />
-      <workItem from="1557243148697" duration="180000" />
+      <workItem from="1557243148697" duration="723000" />
     </task>
     <servers />
   </component>
@@ -401,9 +381,15 @@
     <history-entry file="AppControllerTest - 2019.05.07 at 18h 35m 05s.xml">
       <configuration name="AppControllerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BigBang - 2019.05.07 at 18h 36m 10s.xml">
+      <configuration name="BigBang" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TopDown - 2019.05.07 at 18h 36m 12s.xml">
+      <configuration name="TopDown" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4823000" />
+    <option name="totallyTimeSpent" value="5366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -671,24 +657,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/AppControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/BigBang.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2118">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        <state relative-caret-position="315">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/BigBang.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/AppControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="18" selection-start-line="18" selection-end-line="25" />
+        <state relative-caret-position="195">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/TopDown.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="165">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
