@@ -16,12 +16,12 @@ import static org.junit.Assert.assertEquals;
 public class TopDown {
 
     private AppController appController;
-    private static final String domenii_4 = "/home/adrian/Documents/Documents/school/vvss/lab1/src/main/resources/domenii_4.txt";
-    private static final String intrebari = "/home/adrian/Documents/Documents/school/vvss/lab1/src/main/resources/intrebari1.txt";
+    private static final String domenii_4 = "domenii_4.txt";
+    private static final String intrebari = "intrebari1.txt";
 
     @Before
-    public void init(){
-        appController = new AppController("/home/adrian/Documents/Documents/school/vvss/lab1/src/main/resources/repoTest.txt");
+    public void init() {
+        appController = new AppController("intrebari1.txt");
     }
 
     @Rule

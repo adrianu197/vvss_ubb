@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="029b2804-3492-4df3-b5f1-a61dbd0c55fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/intrebari_gol.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/evaluator/controller/BigBang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/evaluator/controller/TopDown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/evaluator/controller/AppControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/evaluator/controller/AppControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/evaluator/controller/AppControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/evaluator/controller/AppControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/evaluator/controller/BigBang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/evaluator/controller/BigBang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/evaluator/controller/TopDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/evaluator/controller/TopDown.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,25 +30,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="76" column="35" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="35" />
-              <folding>
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#702#703#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/TopDown.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1005">
-              <caret line="23" column="126" selection-start-line="23" selection-start-column="126" selection-end-line="23" selection-end-column="126" />
+            <state relative-caret-position="345">
+              <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,10 +46,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/BigBang.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="49" selection-start-line="49" selection-end-line="60" />
+            <state relative-caret-position="345">
+              <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1230">
-              <caret line="97" column="47" selection-start-line="97" selection-start-column="47" selection-end-line="97" selection-end-column="47" />
+            <state relative-caret-position="235">
+              <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
               <folding>
                 <element signature="e#3000#3001#0" expanded="true" />
                 <element signature="e#3023#3024#0" expanded="true" />
@@ -104,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/AppControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="186" column="48" selection-start-line="186" selection-start-column="35" selection-end-line="186" selection-end-column="48" />
+              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,10 +157,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/intrebari_4.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/domenii_4.txt" />
         <option value="$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java" />
-        <option value="$PROJECT_DIR$/src/test/java/evaluator/controller/BigBang.java" />
-        <option value="$PROJECT_DIR$/src/test/java/evaluator/controller/TopDown.java" />
         <option value="$PROJECT_DIR$/src/main/resources/intrebari_gol.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/evaluator/controller/TopDown.java" />
+        <option value="$PROJECT_DIR$/src/test/java/evaluator/controller/BigBang.java" />
         <option value="$PROJECT_DIR$/src/test/java/evaluator/controller/AppControllerTest.java" />
       </list>
     </option>
@@ -186,7 +176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,6 +238,15 @@
               <item name="lab1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -280,7 +279,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,7 +289,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555436603910" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -308,6 +307,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
@@ -324,7 +324,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BigBang">
+  <component name="RunManager" selected="JUnit.AppControllerTest">
     <configuration name="AppControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab1" />
       <extension name="coverage">
@@ -404,8 +404,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BigBang" />
         <item itemvalue="JUnit.AppControllerTest" />
+        <item itemvalue="JUnit.BigBang" />
         <item itemvalue="JUnit.TopDown" />
         <item itemvalue="JUnit.BigBang.functionalitate3" />
         <item itemvalue="JUnit.BigBang.functionalitate1" />
@@ -430,19 +430,11 @@
       <workItem from="1557224788108" duration="3328000" />
       <workItem from="1557228124487" duration="2014000" />
       <workItem from="1557235803828" duration="4410000" />
+      <workItem from="1557241122105" duration="1551000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BigBang_functionalitate3 - 2019.05.07 at 17h 27m 19s.xml">
-      <configuration name="BigBang.functionalitate3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BigBang_functionalitate3 - 2019.05.07 at 17h 28m 28s.xml">
-      <configuration name="BigBang.functionalitate3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BigBang_functionalitate3 - 2019.05.07 at 17h 29m 00s.xml">
-      <configuration name="BigBang.functionalitate3" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BigBang_functionalitate3 - 2019.05.07 at 17h 29m 10s.xml">
       <configuration name="BigBang.functionalitate3" configurationId="JUnit" />
     </history-entry>
@@ -464,15 +456,24 @@
     <history-entry file="AppControllerTest - 2019.05.07 at 17h 49m 47s.xml">
       <configuration name="AppControllerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BigBang - 2019.05.07 at 18h 22m 50s.xml">
+      <configuration name="BigBang" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BigBang - 2019.05.07 at 18h 23m 04s.xml">
+      <configuration name="BigBang" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppControllerTest - 2019.05.07 at 18h 24m 21s.xml">
+      <configuration name="AppControllerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27487000" />
+    <option name="totallyTimeSpent" value="29038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28168234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28500277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -481,7 +482,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32829374" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32829374" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34989202" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -758,34 +759,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="97" column="47" selection-start-line="97" selection-start-column="47" selection-end-line="97" selection-end-column="47" />
+        <state relative-caret-position="870">
+          <caret line="76" column="35" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="35" />
           <folding>
-            <element signature="e#3000#3001#0" expanded="true" />
-            <element signature="e#3023#3024#0" expanded="true" />
-            <element signature="e#3079#3080#0" expanded="true" />
-            <element signature="e#3112#3113#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/model/Intrebare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1386#1387#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/domenii_4.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -810,33 +791,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/BigBang.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/model/Intrebare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="49" selection-start-line="49" selection-end-line="60" />
+        <state relative-caret-position="585">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/domenii_4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/repo.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
+          <folding>
+            <element signature="e#3000#3001#0" expanded="true" />
+            <element signature="e#3023#3024#0" expanded="true" />
+            <element signature="e#3079#3080#0" expanded="true" />
+            <element signature="e#3112#3113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/BigBang.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/TopDown.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1005">
-          <caret line="23" column="126" selection-start-line="23" selection-start-column="126" selection-end-line="23" selection-end-column="126" />
+        <state relative-caret-position="345">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="76" column="35" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="35" />
-          <folding>
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -844,7 +852,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/AppControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="186" column="48" selection-start-line="186" selection-start-column="35" selection-end-line="186" selection-end-column="48" />
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

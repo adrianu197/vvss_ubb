@@ -9,6 +9,7 @@ import evaluator.model.Statistica;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.io.File;
 import java.util.Collections;
 
 import static org.junit.Assert.*;
@@ -16,15 +17,15 @@ import static org.junit.Assert.*;
 public class AppControllerTest {
     AppController ctrl;
     AppController ctrl2;
-    String domenii_4 = "/home/adrian/Documents/Documents/school/vvss/lab1/src/main/resources/domenii_4.txt";
-    String intrebari_4 = "/home/adrian/Documents/Documents/school/vvss/lab1/src/main/resources/intrebari_4.txt";
-    String intrebari_correct = "/home/adrian/Documents/Documents/school/vvss/lab1/src/main/resources/intrebari1.txt";
-    String intrebari_gol = "/home/adrian/Documents/Documents/school/vvss/lab1/src/main/resources/intrebari_gol.txt";
+    String domenii_4 = "domenii_4.txt";
+    String intrebari_4 = "intrebari_4.txt";
+    String intrebari_correct = "intrebari1.txt";
+    String intrebari_gol = "intrebari_gol.txt";
 
     @Before
     public void setUp() throws Exception {
-        this.ctrl = new AppController("/home/adrian/Documents/Documents/school/vvss/lab1/src/main/resources/repoTest.txt");
-        this.ctrl2 = new AppController("/home/adrian/Documents/Documents/school/vvss/lab1/src/main/resources/repoTest.txt");
+        this.ctrl = new AppController("intrebari1.txt");
+        this.ctrl2 = new AppController("intrebari1.txt");
     }
 
     @Test
@@ -145,13 +146,13 @@ public class AppControllerTest {
 
 
     @Test
-    public void createNewTest() {
+        public void createNewTest() {
         ctrl2.loadIntrebariFromFile(domenii_4);
         try {
             evaluator.model.Test test = ctrl2.createNewTest();
             assert false;
         } catch (NotAbleToCreateTestException e) {
-            assertEquals(e.getMessage(), "Nu exista suficiente domenii pentru crearea unui test!(5)");
+            assertEquals( "Nu exista suficiente domenii pentru crearea unui test!(5)",e.getMessage());
         }
     }
 
@@ -162,7 +163,7 @@ public class AppControllerTest {
             evaluator.model.Test test = ctrl2.createNewTest();
             assert false;
         } catch (NotAbleToCreateTestException e) {
-            assertEquals(e.getMessage(), "Nu exista suficiente intrebari pentru crearea unui test!(5)");
+            assertEquals("Nu exista suficiente intrebari pentru crearea unui test!(5)",e.getMessage());
         }
     }
 
